@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.history-header h2{
+     text-align: center;
+    font-family: Lato, sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-size:30px;
+}
+
+.history-content{
+    text-align: center;
+    font-family: PT Sans Narrow,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    width: auto;
+    height: auto;
+   margin: 10px;
+}
+
+
+@media (min-width: 768px) {
+    .history-content article{
+       font-size: 20px;
+    }
+}
+
+span{
+    height: 20px;
+    line-break: auto;
+}

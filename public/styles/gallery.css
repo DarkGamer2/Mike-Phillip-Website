@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+
+  h2{
+     text-align: center;
+    font-family: Lato, sans-serif, Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    font-weight:700;
+}
+
+
+.gallery-image{
+  height: auto;
+  width: 500px;
+  margin-bottom:20px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
