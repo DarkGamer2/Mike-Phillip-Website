@@ -1,7 +1,12 @@
 const dotenv=require("dotenv").config();
 const mongoose = require('mongoose');
 const Schema=mongoose.Schema;
-mongoose.connect(process.env.MONGO_URL);
+mongoose.connect(process.env.MONGO_URL,{
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true,  
+    useFindAndModify: false 
+});
 
 const querySchema=new Schema({
     fullName:String,
