@@ -1,3 +1,4 @@
+const dotenv=require("dotenv").config();
 const mongoose = require('mongoose');
 const Schema=mongoose.Schema;
 mongoose.connect(process.env.MONGO_URL);
